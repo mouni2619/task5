@@ -71,7 +71,7 @@ bhimavaram
 west godavari
 andhra pradesh
 
-******use for of loop and i need to get projrct title from resume******
+******use for of loop and i need to get project title from resume******
 
 let output=""
 for(let x of resume.Project[0].Title){
@@ -83,7 +83,7 @@ console.log(output)
 Aarush Software Solution Interface
 
 
-******use forEach loop and print details about education******
+******use forEach loop and print all details about education******
 resume.Education.forEach((element)=> {
     console.log(element)
 })
